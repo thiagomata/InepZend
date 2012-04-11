@@ -1,0 +1,16 @@
+Welcome to Inep Zend Framework!
+Our project is an extension of the Zend Framework. Its purpose is to create independent components that can be reusable, automatizing some of the most common tasks we encounter on our company's projects. This will allow teams to respond faster, as they won't waste time with repetitive tasks, and reduce bugs.
+Those components were originally develop under the Coruja Php Framework and are now being adapted to be used with the Zend Framework.
+Project Targets:
+Maintain Zend Framework compatibility;
+Make development simpler and more effective;
+Make it easier to create secure projects;
+Provide simple-to-use features to common needs;
+Provide advanced features to advanced users with complex needs;
+Keep low code coupling;
+Keep well documented and tested code;
+Keep developers happy (a bold one, but we'll try).
+For more information, visit the links below:
+https://www.ohloh.net/p/corujaphpframework
+https://www.ohloh.net/p/zend_framework
+https://www.ohloh.net/p/inepzend
