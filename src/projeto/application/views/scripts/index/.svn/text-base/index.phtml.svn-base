@@ -1,0 +1,11 @@
+<h1> Funcionou! </h1>
+<div>
+    <p>
+        Essa é a página de entrada padrão do <strong>Projeto</strong>.
+    </p>
+    <div class="inepform">
+        <?php print $this->objForm ?>
+    </div>
+    <p>
+    </p>
+</div>

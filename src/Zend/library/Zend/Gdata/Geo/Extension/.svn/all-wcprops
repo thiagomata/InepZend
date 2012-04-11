@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Gdata/Geo/Extension
+END
+GmlPoint.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Gdata/Geo/Extension/GmlPoint.php
+END
+GeoRssWhere.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Gdata/Geo/Extension/GeoRssWhere.php
+END
+GmlPos.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Gdata/Geo/Extension/GmlPos.php
+END

@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Measure
+END
+Energy.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Measure/Energy.php
+END
+Acceleration.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Measure/Acceleration.php
+END
+Capacitance.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Measure/Capacitance.php
+END
+Power.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Measure/Power.php
+END
+Temperature.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Measure/Temperature.php
+END
+Force.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Measure/Force.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Measure/Exception.php
+END
+Time.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Measure/Time.php
+END
+Lightness.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Measure/Lightness.php
+END
+Speed.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Measure/Speed.php
+END
+Frequency.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Measure/Frequency.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Measure/Abstract.php
+END
+Illumination.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Measure/Illumination.php
+END
+Volume.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Measure/Volume.php
+END
+Pressure.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Measure/Pressure.php
+END
+Area.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Measure/Area.php
+END
+Density.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Measure/Density.php
+END
+Torque.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Measure/Torque.php
+END
+Length.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Measure/Length.php
+END
+Current.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Measure/Current.php
+END
+Binary.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Measure/Binary.php
+END
+Angle.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Measure/Angle.php
+END
+Weight.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Measure/Weight.php
+END
+Number.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Measure/Number.php
+END

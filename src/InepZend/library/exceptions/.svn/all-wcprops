@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/inepzendframework/!svn/ver/2/trunk/src/InepZend/library/exceptions
+END
+FatalException.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/inepzendframework/!svn/ver/2/trunk/src/InepZend/library/exceptions/FatalException.class.php
+END
+_start.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/inepzendframework/!svn/ver/2/trunk/src/InepZend/library/exceptions/_start.php
+END

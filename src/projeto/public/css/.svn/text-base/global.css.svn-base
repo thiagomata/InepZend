@@ -1,0 +1,103 @@
+.clickable
+{
+    cursor: pointer;
+}
+body
+{
+	line-height: 1.6em;
+}
+
+#hor-minimalist-a
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	background: #fff;
+	margin: 45px;
+	width: 480px;
+	border-collapse: collapse;
+	text-align: left;
+}
+#hor-minimalist-a th
+{
+	font-size: 14px;
+	font-weight: normal;
+	color: #039;
+	padding: 10px 8px;
+	border-bottom: 2px solid #6678b1;
+}
+#hor-minimalist-a td
+{
+	color: #669;
+	padding: 9px 8px 0px 8px;
+}
+#hor-minimalist-a tbody tr:hover td
+{
+	color: #009;
+}
+.page_links
+{
+    width: 100%;
+    height: 24px;
+    background-color: white;
+}
+#pagination-digg{
+    border:0;
+    margin:0;
+    padding:0;
+    height: 24px;
+}
+#pagination-digg li{
+    border:0; margin:0; padding:0;
+    font-size:11px;
+    list-style:none;
+    margin-right:1px;
+    display: inline-block;
+}
+#pagination-digg a{
+    border:solid 1px #9aafe5;
+    margin-right:0px;
+}
+#pagination-digg .previous-off,
+#pagination-digg .next-off {
+    border:solid 1px #DEDEDE;
+    color:#888888;
+    display:block;
+    float:left;
+    font-weight:bold;
+    margin-right:1px;
+    padding:4px 10px;
+}
+#pagination-digg .next a,
+#pagination-digg .previous a {
+    font-weight:bold;
+}
+#pagination-digg .active{
+    background:#2e6ab1;
+    color:#FFFFFF;
+    font-weight:bold;
+    padding:4px 10px;
+}
+#pagination-digg a:link,
+#pagination-digg a:visited {
+    color:#0e509e;
+    display:inline-block;
+    padding:4px 10px;
+    text-decoration:none;
+}
+#pagination-digg a:hover{
+    border:solid 1px #0e509e
+}
+#pagination-digg .next,
+#pagination-digg .next-off {
+    float: right;
+}
+#pagination-digg .previous,
+#pagination-digg .previous-off {
+    display:block;
+    float:left;
+}
+.page_links
+{
+    text-align: center;
+}
+

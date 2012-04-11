@@ -1,0 +1,10 @@
+<h1>Página não encontrada</h1>
+  <p>
+      A página que você está procurando não foi encontrada. As razões mais prováveis para isso são:
+      <ul>
+          <li>Uma URL digitada incorretamente ou copiada incorretamente por engano.</li>
+          <li>Link quebrado vindo de outra página ou de uma mensagem de email.</li>
+          <li>Conteúdo do site movido ou apagado.</li>
+      </ul>
+      Você pode <a href="javascript:history(-1);">voltar a página anterior</a> ou ir para a <a href="/">página principal</a>.
+  </p>

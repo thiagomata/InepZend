@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+    <title>Cache Component</title>
+    <class>CorujaCache</class>
+    <svn link="http://code.assembla.com/corujaphpframework/subversion/nodes/corujito/coruja/components/default/cache/CorujaCache.class.php"/>
+    <wiki link="http://www.assembla.com/wiki/show/corujaphpframework/Components#cache"/>
+    <keywords>
+        <keyword value="cache"/>
+        <keyword value="php"/>
+        <keyword value="md5"/>
+        <keyword value="base64"/>
+    </keywords>
+    <resume>
+        <p>
+            This component control the cache of files. It is a easy way to make your project run faster.
+            It's compare the file size, file date of change and md5 to determinate if the original file has change.
+        </p>
+    </resume>
+    <relatedcomponents>
+        <component name="Coruja Template" link="template"/>
+        <component name="Coruja Request" link="request"/>
+        <component name="Coruja Xml2Php" link="xml2Php"/>
+    </relatedcomponents>
+</component>

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/inepzendframework/!svn/ver/20/trunk/src/InepZend/library/local/model
+END
+EntityAnnotationAttribute.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/inepzendframework/!svn/ver/2/trunk/src/InepZend/library/local/model/EntityAnnotationAttribute.php
+END
+Entity.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/inepzendframework/!svn/ver/20/trunk/src/InepZend/library/local/model/Entity.php
+END
+EntityAnnotationClass.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/inepzendframework/!svn/ver/2/trunk/src/InepZend/library/local/model/EntityAnnotationClass.php
+END
+EntityTable.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/inepzendframework/!svn/ver/2/trunk/src/InepZend/library/local/model/EntityTable.php
+END
+EntityValidateException.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/inepzendframework/!svn/ver/2/trunk/src/InepZend/library/local/model/EntityValidateException.php
+END
+EntityRelationshipTable.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/inepzendframework/!svn/ver/2/trunk/src/InepZend/library/local/model/EntityRelationshipTable.php
+END
+EntityAnnotation.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/inepzendframework/!svn/ver/2/trunk/src/InepZend/library/local/model/EntityAnnotation.php
+END
+EntityAnnotationMethod.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/inepzendframework/!svn/ver/2/trunk/src/InepZend/library/local/model/EntityAnnotationMethod.php
+END

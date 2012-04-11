@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/inepzendframework/!svn/ver/2/trunk/src/InepZend/library/coruja/autoLoad/interfaces
+END
+CorujaAutoLoadGroupInterface.interface.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/inepzendframework/!svn/ver/2/trunk/src/InepZend/library/coruja/autoLoad/interfaces/CorujaAutoLoadGroupInterface.interface.php
+END
+CorujaAutoLoadGroupException.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/inepzendframework/!svn/ver/2/trunk/src/InepZend/library/coruja/autoLoad/interfaces/CorujaAutoLoadGroupException.class.php
+END
+CorujaAutoLoadInterface.interface.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/inepzendframework/!svn/ver/2/trunk/src/InepZend/library/coruja/autoLoad/interfaces/CorujaAutoLoadInterface.interface.php
+END
+CorujaAutoLoadException.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/inepzendframework/!svn/ver/2/trunk/src/InepZend/library/coruja/autoLoad/interfaces/CorujaAutoLoadException.class.php
+END
+CorujaNotFoundedClass.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/inepzendframework/!svn/ver/2/trunk/src/InepZend/library/coruja/autoLoad/interfaces/CorujaNotFoundedClass.class.php
+END

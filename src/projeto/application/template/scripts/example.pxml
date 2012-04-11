@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+<html
+    xmlns:template="xhtml.template"
+    xmlns:projeto="projeto.template.tags"
+>
+    <head>
+        <title>Olá mundo</title>
+    </head>
+    <body style="background-color: rgb(250,250,255); color: blue">
+        <p>
+            <span> Olá Mundo </span>
+        </p>
+        <div id="teste" class="{# 1 + 1 #}">
+            <form action="" method="post">
+                <projeto:numero name="joao" type="checkbox"/>
+                <input type="text" name="outro" disabled="true"/>
+            </form>
+        </div>
+        <template:add refId="teste">
+            <p>
+                Outra Coisa
+            </p>
+        </template:add>
+        <template:if value="{#false#}">
+            é falso
+            <template:else>
+                {# date( "h:i:s" ) #}
+            </template:else>
+        </template:if>
+        <div>
+        {# 1 + 2 #} abc {# $this->nome #}
+        </div>
+        <template:foreach list="1 , 2 , 3" item="oi">
+            <ul>
+                <template:eachitem>
+                    <li>
+                        {# $this->key #}
+                        {# $this->oi #}
+                    </li>
+                </template:eachitem>
+            </ul>
+        </template:foreach>
+        <div>
+            <template:foreach list="{# $this->getNomes() #}" item="nome">
+                <ul>
+                    <template:eachitem>
+                        <li>
+                            <template:last>
+                                por último, mas não menos importante, 
+                            </template:last>
+                            <template:first>
+                                {# ucfirst( $this->nome ) #}
+                            </template:first>
+                            <template:notfirst>
+                                {# strtolower( $this->nome ) #}
+                            </template:notfirst>
+                            <template:notlast>
+                                ,
+                            </template:notlast>
+                            <template:last>
+                                .
+                            </template:last>
+                        </li>
+                    </template:eachitem>
+                </ul>
+                <template:empty>
+                    EMPTY!
+                </template:empty>
+            </template:foreach>
+        </div>
+        <template:foreach list="{# $this->getCarros() #}">
+            <table>
+                <thead>
+                    <tr>
+                        <th>
+                            Chave
+                        </th>
+                        <th>
+                            Nome
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <template:eachitem>
+                        <tr>
+                            <td>
+                                {# $this->key + 1 #}º Carro
+                            </td>
+                            <td>
+                                {# $this->item #}
+                            </td>
+                        </tr>
+                    </template:eachitem>
+                </tbody>
+            </table>
+            <template:empty>
+                <span> Sem Carros </span>
+            </template:empty>
+        </template:foreach>
+    </body>
+</html>

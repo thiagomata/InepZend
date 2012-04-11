@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Service/Yahoo
+END
+LocalResult.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Service/Yahoo/LocalResult.php
+END
+InlinkDataResultSet.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Service/Yahoo/InlinkDataResultSet.php
+END
+ResultSet.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Service/Yahoo/ResultSet.php
+END
+ImageResultSet.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Service/Yahoo/ImageResultSet.php
+END
+VideoResult.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Service/Yahoo/VideoResult.php
+END
+PageDataResult.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Service/Yahoo/PageDataResult.php
+END
+LocalResultSet.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Service/Yahoo/LocalResultSet.php
+END
+NewsResult.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Service/Yahoo/NewsResult.php
+END
+WebResult.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Service/Yahoo/WebResult.php
+END
+InlinkDataResult.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Service/Yahoo/InlinkDataResult.php
+END
+Result.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Service/Yahoo/Result.php
+END
+VideoResultSet.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Service/Yahoo/VideoResultSet.php
+END
+PageDataResultSet.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Service/Yahoo/PageDataResultSet.php
+END
+ImageResult.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Service/Yahoo/ImageResult.php
+END
+Image.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Service/Yahoo/Image.php
+END
+NewsResultSet.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Service/Yahoo/NewsResultSet.php
+END
+WebResultSet.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Service/Yahoo/WebResultSet.php
+END

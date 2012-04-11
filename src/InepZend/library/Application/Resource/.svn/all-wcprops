@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/inepzendframework/!svn/ver/4/trunk/src/InepZend/library/Application/Resource
+END
+Dojo.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/inepzendframework/!svn/ver/2/trunk/src/InepZend/library/Application/Resource/Dojo.php
+END
+Frontcontroller.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/inepzendframework/!svn/ver/2/trunk/src/InepZend/library/Application/Resource/Frontcontroller.php
+END
+Translate.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/inepzendframework/!svn/ver/2/trunk/src/InepZend/library/Application/Resource/Translate.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/inepzendframework/!svn/ver/2/trunk/src/InepZend/library/Application/Resource/Exception.php
+END
+Cachemanager.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/inepzendframework/!svn/ver/2/trunk/src/InepZend/library/Application/Resource/Cachemanager.php
+END
+Navigation.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/inepzendframework/!svn/ver/2/trunk/src/InepZend/library/Application/Resource/Navigation.php
+END
+Locale.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/inepzendframework/!svn/ver/2/trunk/src/InepZend/library/Application/Resource/Locale.php
+END
+Multidb.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/inepzendframework/!svn/ver/2/trunk/src/InepZend/library/Application/Resource/Multidb.php
+END
+Modules.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/inepzendframework/!svn/ver/2/trunk/src/InepZend/library/Application/Resource/Modules.php
+END
+ResourceAbstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/inepzendframework/!svn/ver/2/trunk/src/InepZend/library/Application/Resource/ResourceAbstract.php
+END
+Layout.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/inepzendframework/!svn/ver/2/trunk/src/InepZend/library/Application/Resource/Layout.php
+END
+Router.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/inepzendframework/!svn/ver/2/trunk/src/InepZend/library/Application/Resource/Router.php
+END
+Log.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/inepzendframework/!svn/ver/2/trunk/src/InepZend/library/Application/Resource/Log.php
+END
+Mail.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/inepzendframework/!svn/ver/2/trunk/src/InepZend/library/Application/Resource/Mail.php
+END
+Session.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/inepzendframework/!svn/ver/2/trunk/src/InepZend/library/Application/Resource/Session.php
+END
+Db.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/inepzendframework/!svn/ver/2/trunk/src/InepZend/library/Application/Resource/Db.php
+END
+Resource.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/inepzendframework/!svn/ver/2/trunk/src/InepZend/library/Application/Resource/Resource.php
+END

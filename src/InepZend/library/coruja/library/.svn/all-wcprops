@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/inepzendframework/!svn/ver/24/trunk/src/InepZend/library/coruja/library
+END
+CorujaSessionManipulation.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/inepzendframework/!svn/ver/2/trunk/src/InepZend/library/coruja/library/CorujaSessionManipulation.class.php
+END
+_start.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/inepzendframework/!svn/ver/2/trunk/src/InepZend/library/coruja/library/_start.php
+END
+CorujaClassManipulation.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/inepzendframework/!svn/ver/2/trunk/src/InepZend/library/coruja/library/CorujaClassManipulation.class.php
+END
+CorujaStringManipulation.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/inepzendframework/!svn/ver/2/trunk/src/InepZend/library/coruja/library/CorujaStringManipulation.class.php
+END
+CorujaArrayManipulation.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/inepzendframework/!svn/ver/2/trunk/src/InepZend/library/coruja/library/CorujaArrayManipulation.class.php
+END
+CorujaFileManipulation.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/inepzendframework/!svn/ver/2/trunk/src/InepZend/library/coruja/library/CorujaFileManipulation.class.php
+END

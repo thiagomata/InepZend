@@ -1,0 +1,36 @@
+<?php
+namespace xhtml;
+/**
+ * Used to group in-line HTML.
+ *
+ * \<span> applies no meaning and is commonly used solely to apply CSS.
+ *
+ * This HTML element is a generic inline container for phrasing content, which
+ * does not inherently represent anything.
+ *
+ * It can be used to group elements for styling purposes
+ * (using the class or id attributes), or because they share attribute values,
+ * such as lang.
+ *
+ * It should be used only when no other semantic element is appropriate.
+ * \<span> is very much lika a \<div> element, but \<div> is a block-level
+ * element whereas a \<span> is an inline element.
+ *
+ * @example {
+ *   <p><span>Some text</span></p>
+ * }
+ *
+ * @see xhtml\Div
+ * @link http://htmldog.com/reference/htmltags/span/
+ * @link http://developer.mozilla.org/en/HTML/Element/span/
+ */
+class Span extends abstractEntity\TextEntity
+{
+    /**
+     * XML Tag Name
+     *
+     * @var string
+     */
+    protected $strTag = 'span';
+}
+?>

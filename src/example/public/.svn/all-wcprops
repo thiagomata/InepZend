@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/inepzendframework/!svn/ver/21/trunk/src/example/public
+END
+_start.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/inepzendframework/!svn/ver/21/trunk/src/example/public/_start.php
+END
+.htaccess
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/inepzendframework/!svn/ver/21/trunk/src/example/public/.htaccess
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/inepzendframework/!svn/ver/21/trunk/src/example/public/index.php
+END

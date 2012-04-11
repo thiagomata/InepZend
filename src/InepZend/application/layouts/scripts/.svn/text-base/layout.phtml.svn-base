@@ -1,0 +1,209 @@
+<?php echo $this->doctype() ?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=<?php echo $this->getEncoding() ?>"/>
+        <meta name="description" content=""/>
+        <base href="<?php echo $this->serverUrl() . $this->baseUrl('/'). $this->url ?>"/>
+        <link rel="icon" type="image/png" href="image/favicon.ico"/>
+        <?php if (isset($this->title)): ?>
+            <title><?php print $this->projeto ?> - <?php print $this->title ?></title>
+        <?php else: ?>
+            <title>Inep Zend Framework</title>
+        <?php endif; ?>
+        <link rel="stylesheet" type="text/css" href="<?php echo $this->baseUrl('css/global.css'); ?>" />
+        <link rel="stylesheet" type="text/css" href="<?php echo $this->baseUrl('css/tipTip.css'); ?>" />
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+        <script type="text/javascript" src="jquery.tipTip.js"></script>
+        <script type="text/javascript">
+            function getParentForm( objElement )
+            {
+                if( objElement == null || objElement == undefined || objElement.tagName == 'FORM' )
+                {
+                    return objElement;
+                }
+                return getParentForm( objElement.parentNode );
+            }
+
+            /**
+             * caso booPost = true {
+             *      Caso booKeepFormData = false{
+             *          - Cria um novo formulario para que envie apenas os parametros
+             *          do elemento
+             *      }
+             *
+             *      Caso booKeepFormData = true{
+             *          - Adiciona ao formulario ao qual o Element pertence novos
+             *          inputs hidden com os parametros do elemento
+             *      }
+             *
+             *      - Submete o Formulario
+             * }
+             * caso booPost = false{
+             *      Cria uma grande url com todos os parametros do Elemento
+             *      e atribui a mesma na url da janela
+             * }
+             *
+             * @author Thiago Mata
+             */
+            function makeEvent( strUrlLink , arrElements , booPost , booKeepFormData , objElement )
+            {
+                var objForm = getParentForm( objElement );
+                var objField;
+
+                /**
+                 * Se a ideia é criar um formulario novo, cria então.
+                 */
+                if( !booKeepFormData )
+                {
+                    objForm = document.createElement( "form" );
+                    objForm.setAttribute( "method", "post" );
+                    document.body.appendChild( objForm );
+                }
+
+                /**
+                 * Para cada dupla ( chave , valor ), dai o += 2
+                 */
+                for( var i = 0; i < arrElements.length; i += 2 )
+                {
+                    var strKey = arrElements[ i ];
+                    var mixValue = arrElements[ i + 1 ];
+
+                    if( booPost )
+                    {
+                        /**
+                         * Caso esteja adicionando elementos ao form do objeto
+                         */
+                        if( booKeepFormData )
+                        {
+                            /**
+                             * Confere se o elemento ja existe
+                             */
+                            objField = document.getElementById( strKey );
+                        }
+                        else
+                        {
+                            /**
+                             * O formulario é necessariamente novo
+                             * e logo o elemento nao existe
+                             */
+                            objField = null;
+                        }
+
+                        /**
+                         * Se o elemento nao existir cria ele como um input
+                         * type hidden
+                         */
+                        if( objField == null )
+                        {
+                            objField = document.createElement( "input" );
+                            objField.type = "hidden";
+                            objField.value = mixValue;
+                            objField.id = strKey;
+                            objField.name = strKey;
+                            objForm.appendChild( objField );
+                        }
+                        else
+                        {
+                            /**
+                             * Se ja existir, apenas altera seu value
+                             */
+                            objField.value = mixValue;
+                        }
+
+                    }
+                    else
+                    {
+                        /**
+                         * Montando a grande url
+                         */
+                        if( strUrlLink[ strUrlLink.length - 1 ] != '/' )
+                        {
+                           strUrlLink += '/';
+                        }
+                        strKey = strKey.replace( objForm.id + "_" , "" );
+                        strUrlLink += strKey + '/' + mixValue;
+                    }
+                }
+
+                /**
+                 * Caso se pretenda submeter algum formulario
+                 */
+                if( booPost )
+                {
+                    objForm.action = strUrlLink;
+                    objForm.submit();
+                }
+                else
+                {
+                    /**
+                     * Apenas altera a url
+                     */
+                    
+                    window.location = strUrlLink;
+                }
+                
+            }
+        </script>
+    </head>
+    <body>
+        <div id="cabecalhoInep">
+            <div id="cabecalhoConteudo">
+                <div class="logo">
+                    <a href="<?php echo $this->baseUrl('/') ?>"><h1><span><?php print $this->projeto ?></span></h1></a>
+                </div>
+            <?php if (isset($this->objUsuario)): ?>
+                <div id="profile">
+                    <div id="profileContent">
+                        <?php echo $this->escape($this->objUsuario->getNome()) ?>
+                        | <a href="<?php echo $this->url(array('controller' => 'usuario', 'action' => 'profile')); ?>">Dados pessoais</a>
+                        | <a href="<?php echo $this->url(array('controller' => 'auth', 'action' => 'logout')); ?>">Sair</a>
+                    </div>
+                </div>
+            <?php endif; ?>
+            </div>
+        </div>
+        <?php if (isset($this->messages) && ( sizeof((array) $this->messages) ) > 0): ?>
+        <div id="flashMessages">
+            <div class="flashMessage">
+            <?php foreach ($this->messages as $strMessage): ?>
+                <?php echo $strMessage  ?><br/>
+            <?php endforeach; ?>
+            </div>
+        </div>
+        <?php endif ?>
+        <?php if (isset($this->warnings) && ( sizeof((array) $this->warnings) ) > 0): ?>
+        <div id="flashWarnings">
+            <div class="flashWarning">
+            <?php foreach ($this->warnings as $strWarning): ?>
+                <?php echo $strWarning ?><br/>
+            <?php endforeach; ?>
+            </div>
+        </div>
+        <?php endif ?>
+
+        <div id="conteudoInep">
+            <div id="conteudoInepCenter">
+                <div id="conteudoInepCaixa">
+                    <?php if (isset($this->title)): ?>
+                    <h2><?php echo $this->title ?></h2>
+                    <?php endif; ?>
+                    <?php echo $this->layout()->content ?>
+                </div>
+            </div>
+        </div>
+
+        <div id="rodapeInep">
+        </div>
+    </body>
+    <script type="text/javascript">
+//    $(document).ready(function(){
+//        $('form *[title]').each(function(){
+//            $(this).after('<span class="tooltip" title="'+ $(this).attr('title') +'"></span>');
+//
+//            $(this).tipTip({keepAlive:true, defaultPosition:'right',activation:"focus"});
+//        });
+//
+//        $('.tooltip').tipTip({keepAlive:true, defaultPosition:'right'});
+//    });
+    </script>
+</html>

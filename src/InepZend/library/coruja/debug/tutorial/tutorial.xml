@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+    <title>Debug Component</title>
+    <class>CorujaDebug</class>
+    <svn link="#"/>
+    <wiki link="#"/>
+    <keywords>
+        <keyword value="debug"/>
+        <keyword value="print"/>
+        <keyword value="highlight"/>
+        <keyword value="xml"/>
+        <keyword value="object"/>
+        <keyword value="var_export"/>
+    </keywords>
+    <resume>
+        <p>
+            This component make easy actions of debug as show variables values,
+            show hightlight sources PHP, HTML, XML, show objects content, etc.
+        </p>
+    </resume>
+    <relatedcomponents>
+        <component name="Log"/>
+        <component name="Error"/>
+    </relatedcomponents>
+</component>

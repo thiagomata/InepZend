@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Feed
+END
+Element.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Feed/Element.php
+END
+Writer.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Feed/Writer.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Feed/Exception.php
+END
+Atom.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Feed/Atom.php
+END
+Reader.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Feed/Reader.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Feed/Abstract.php
+END
+Builder.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Feed/Builder.php
+END
+Rss.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Feed/Rss.php
+END
+Pubsubhubbub.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Feed/Pubsubhubbub.php
+END

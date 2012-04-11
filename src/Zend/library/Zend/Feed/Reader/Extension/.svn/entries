@@ -1,0 +1,123 @@
+10
+
+dir
+24
+http://subversion.assembla.com/svn/inepzendframework/trunk/src/Zend/library/Zend/Feed/Reader/Extension
+http://subversion.assembla.com/svn/inepzendframework
+
+
+
+2011-05-18T14:36:35.214467Z
+2
+blaine
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+38f65e97-e1c7-41aa-a7ea-e03df2c60fd7
+
+Atom
+dir
+
+Syndication
+dir
+
+DublinCore
+dir
+
+Thread
+dir
+
+Content
+dir
+
+Slash
+dir
+
+EntryAbstract.php
+file
+
+
+
+
+2012-01-30T17:14:23.607972Z
+b5094d1f738ac287e0ddb9cfffab0d2e
+2011-05-18T14:36:35.214467Z
+2
+blaine
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4621
+
+Podcast
+dir
+
+FeedAbstract.php
+file
+
+
+
+
+2012-01-30T17:14:23.607972Z
+c31ea1e813c52a22b10d02b43d317c5b
+2011-05-18T14:36:35.214467Z
+2
+blaine
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4032
+
+CreativeCommons
+dir
+
+WellFormedWeb
+dir
+

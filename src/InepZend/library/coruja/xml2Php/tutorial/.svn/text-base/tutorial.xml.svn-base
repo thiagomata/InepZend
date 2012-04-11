@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+    <title>Xml2Php Component</title>
+    <class>CorujaXml2Php</class>
+    <svn link="#"/>
+    <wiki link="#"/>
+    <keywords>
+        <keyword value="Xml2Php"/>
+        <keyword value="xml"/>
+        <keyword value="php"/>
+        <keyword value="html"/>
+        <keyword value="oop"/>
+        <keyword value="serverside"/>
+        <keyword value="clientside"/>
+    </keywords>
+    <resume>
+        <p>
+            This component provide the possibility to convert XML elements into
+            PHP code what create Tree of Objects.
+        </p>
+    </resume>
+    <relatedcomponents>
+        <component name="Template"/>
+        <component name="Cache"/>
+    </relatedcomponents>
+</component>

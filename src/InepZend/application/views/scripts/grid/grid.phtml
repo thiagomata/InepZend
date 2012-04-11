@@ -1,0 +1,73 @@
+<?php if( sizeof( $this->getRows() ) == 0 ): ?>
+    <?php print $this->getEmptyListMessage() ?>
+<?php else: ?>
+    <table id="hor-minimalist-a" summary="Employee Pay Sheet">
+        <thead>
+            <tr>
+                <?php foreach( $this->getHeaders() as $objHeader ): ?>
+                    <th scope="col" id="<?php print $objHeader->getId() ?>" >
+                        <?php print $objHeader->getLabel() ?>
+                        <?php foreach( $objHeader->getButtons() as $objButton ): ?>
+                            <?php print $objButton ?>
+                        <?php endforeach ?>
+                    </th>
+                <?php endforeach ?>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="4">
+                    <div class="page_links">
+                        <ul id="pagination-digg">
+                        <?php if( $this->getPage() > 1 ): ?>
+                            <li class="previous"><a <?php print $this->getEventFirstPage()->toLink() ?>>&larr; </a></li>
+                            <li class="previous"><a <?php print $this->getEventPreviousPage()->toLink() ?>>&laquo; </a></li>
+                        <?php else: ?>
+                            <li class="previous-off">&larr; </li>
+                            <li class="previous-off">&laquo;</li>
+                        <?php endif ?>
+                            <?php foreach( $this->getNavigationEvents() as $intPage => $objElement ): ?>
+                                <?php if( $intPage != $this->getPage() ): ?>
+                                    <li><a <?php print $objElement->toLink() ?> ><?php print $intPage ?></a></li>
+                                <?php else: ?>
+                                    <li class="active" <?php print $objElement->toLink() ?> ><?php print $intPage ?></li>
+                                <?php endif ?>
+                            <?php endforeach ?>
+                            <?php if( $this->getPage() < $this->getLastPage() ): ?>
+                                <li class="next"><a <?php print $this->getEventLastPage()->toLink() ?>>&rarr;</a></li>
+                                <li class="next"><a <?php print $this->getEventNextPage()->toLink() ?>>»</a></li>
+                            <?php else: ?>
+                                <li class="next-off">&rarr;</li>
+                                <li class="next-off">&raquo;</li>
+                            <?php endif ?>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <?php foreach( $this->getRows() as $intRowCount => $objRow ): ?>
+                <tr
+                    class="<?php print $intRowCount % 2 ? 'even' : 'odd' ?>"
+                >
+                    <?php foreach( $this->getHeaders() as $objHeader ): ?>
+                        <td
+                            <?php if( $objRow->getEvent() !== null ): ?>
+                                <?php if( sizeof( $objRow->getButtons( $objHeader ) ) == 0 ): ?>
+                                    <?php print $objRow->getEvent() ?>
+                                <?php endif ?>
+                                class="clickable"
+                            <?php else: ?>
+                            <?php endif ?>
+                        >
+                            <?php print $objRow->getColumnValue( $objHeader ) ?>
+                            <?php foreach( $objRow->getButtons( $objHeader ) as $objButton ): ?>
+                                <?php print $objButton ?>
+                            <?php endforeach ?>
+                        </td>
+                    <?php endforeach ?>
+                </tr>
+            <?php endforeach ?>
+        </tbody>
+    </table>
+<?php endif ?>

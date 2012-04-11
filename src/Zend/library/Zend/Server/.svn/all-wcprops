@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Server
+END
+Reflection.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Server/Reflection.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Server/Exception.php
+END
+Interface.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Server/Interface.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Server/Abstract.php
+END
+Cache.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Server/Cache.php
+END
+Definition.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Server/Definition.php
+END

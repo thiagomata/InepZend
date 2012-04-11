@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+    <title>Library Component</title>
+    <class>CorujaClassManipulation</class>
+    <svn link="#"/>
+    <wiki link="#"/>
+    <keywords>
+        <keyword value="array"/>
+        <keyword value="class"/>
+        <keyword value="file"/>
+        <keyword value="session"/>
+        <keyword value="string"/>
+    </keywords>
+    <resume>
+        <p>
+            This component has a collection of static class what has each one
+            methods related into its own context. This classes come to make
+            easy actions related with array manipulation, class manipulation,
+            file manipulation, session manipulation and string manipulation.
+        </p>
+    </resume>
+    <relatedcomponents>
+        <component name="Debug"/>
+    </relatedcomponents>
+</component>

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Cloud/StorageService
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Cloud/StorageService/Exception.php
+END
+Adapter.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Cloud/StorageService/Adapter.php
+END
+Factory.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Cloud/StorageService/Factory.php
+END

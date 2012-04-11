@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+    <title>Annotation Component</title>
+    <class>CorujaAnnotation</class>
+    <wiki link="http://www.assembla.com/wiki/show/corujaphpframework/Components#annotation"/>
+    <keywords>
+        <keyword value="annotation"/>
+        <keyword value="php"/>
+        <keyword value="tag"/>
+    </keywords>
+    <resume>
+        <p>
+            Annotations can provide informations about your methods, classes and
+            attributes that can be useful to others human readers, IDEs and also
+            to the code execution. In PHP, the Annotations are not a native
+            element, but it can be easly done using this component.
+        </p>
+    </resume>
+    <relatedcomponents>
+        <component name="Coruja Abstract Persistence" link="abstractPersistence"/>
+        <component name="Coruja Abstract Entity" link="abstractEntity"/>
+        <component name="Coruja Layers" link="layers"/>
+        <component name="Coruja Profile" link="profile"/>
+    </relatedcomponents>
+    <classes>
+        <class name="CorujaAnnotationAttributeInterface"/>
+        <class name="CorujaAnnotationClassInterface"/>
+        <class name="CorujaAnnotationException"/>
+        <class name="CorujaAnnotationInterface"/>
+        <class name="CorujaAnnotationMethodInterface"/>
+        <class name="CorujaAnnotationMethodInterface"/>
+        <class name="CorujaAnnotation"/>
+    </classes>
+    <tutorials>
+        <tutorial name="Introducing the Annotation Component" class="CorujaAnnotation">
+            <topic title="What is annotation?">
+                <p>
+                    <q cite="http://en.wikipedia.org/wiki/Annotation"
+                        >Annotations provide data about a software
+                        program that is not part of the program itself.
+                        They have no direct effect on the
+                        operation of the code they annotate.</q>  by
+                    <cite>
+                        <a href="http://en.wikipedia.org/wiki/Annotation">Wikipedia</a>
+                    </cite>
+                </p>
+            </topic>
+            <topic title="What is good for?">
+                <p>
+                     Annotations can provide informations about your
+                     methods, classes and attributes that can be
+                     useful to others human readers, IDEs
+                     and also to the code execution.
+                </p>
+                <p>
+                    <a
+                        href="http://java.sun.com/j2se/1.5.0/docs/guide/language/annotations.html"
+                    >In Java 5.0 the annotations are native</a>.
+                    In PHP the annotations are not a native feature,
+                    but this component simulates
+                    this behaviour in a pretty simple object oriented way.
+                    Click here to see an
+                    <a href="?example=Example%20Annotation%20Use">example</a>
+                    Click here to see an
+                    of how to use the annotation component.
+                </p>
+            </topic>
+            <topic title="How it works?">
+                <subtopic title="Creating the Annotation Classes">
+                    <p>
+                        First of all you need to decide if you will need to read the
+                        annotations from the class, or from a method, or from an attribute.
+                        In fact, you can read from all of them, as it's being made in the
+                        example.
+                    </p>
+                    <p>
+                        If you want to get the annotations of the class, you must create
+                        a class that implements the
+                        <span class="php_class"><a href="?class=CorujaAnnotationClassInterface">CorujaAnnotationClassInterface</a></span>.
+                        If you
+                        want to get the annotations of the method you will need to create
+                        a class that implements the
+                        <a href="?class=CorujaAnnotationMethodInterface"><span class="php_class">CorujaAnnotationMethodInterface</span></a>.
+                        Following
+                        this ideia the
+                        <a href="?class=CorujaAnnotationAttributeInterface"><span class="php_class">CorujaAnnotationAttributeInterface</span></a>
+                        can be created as well.
+                    </p>
+                    <p>
+                        After creating the necessary
+                        methods you will have to create the methods of the annotations
+                        that you want to capture. If you create the method <span class="method" >setAuthor()</span>
+                        this method will be called when the annotation <span class="annotation">@author</span> is found.
+                        Also <span class="annotation">@link</span> is related to the method <span class="method" >setLink()</span>
+                        and <span class="annotation">@thisissomethingnew</span> is related to the method <span class="method" >setThisissomethingnew()</span>.
+                    </p>
+                    <p>
+                        Probally you will want to create the getters to access this information
+                        outside. So create the <span class="method" >getAuthor()</span>, <span class="method" >getLink()</span>,
+                        etc.
+                    </p>
+                    <ul>
+                        <li><a href="?example=Example Annotation Class">Example of annotation for a class</a></li>
+                        <li><a href="?example=Example Annotation Method">Example of annotation of a method</a></li>
+                        <li><a href="?example=Example Annotation Attribute">Example of annotation of a attribute</a></li>
+                    </ul>
+                </subtopic>
+                <subtopic>
+                    <p>
+                        In the class you want to get the annotation information
+                        add the annotation information <span class="annotation">@AnnotationClass</span>, <span class="annotation">@AnnotationAttribute</span> and
+                        <span class="annotation">@AnnotationMethod</span> as in the example:
+                    </p>
+                    <code>
+/**
+ *
+ * @AnnotationClass ExampleAnnotationClass
+ * You should replace the ExampleAnnotationClass by the
+ * AnnotationClass what you created
+ *
+ * @AnnotationAttribute ExampleAnnotationAttribute
+ * You should replace the ExampleAnnotationAttribute by the
+ * AnnotationAttribute what you created
+ *
+ * @AnnotationMethod ExampleAnnotationMethod
+ * You should replace the ExampleAnnotationMethod by the
+ * AnnotationMethod what you created
+ *
+ */
+                    </code>
+                    <p>
+                        After that, you will need to instantiate the annotation class. I
+                        recommeded you make this call inside the parent's class constructor,
+                        but it's not mandatory.
+                    </p>
+                    <code>
+$this->objAnnotation = new CorujaAnnotation( $this );' );
+                    </code>
+                </subtopic>
+                <subtopic name="Creating the Annotation Object Getter">
+                    <p>
+                        To have public access to this object let's make a constructor
+                    </p>
+                    <code>
+/**
+ * Get the Annotation Component
+ *
+ * @return CorujaAnnotation
+ */
+public function getAnnotation()
+{
+    return $this->objAnnotation;
+}
+                    </code>
+                    <p>
+                        Here is <a href="?example=Example Parent Class">an example of parent class what use the annotation</a>.
+                    </p>
+                </subtopic>
+                <subtopic name="Getting the Annotation Data">
+                    <p>
+                        Ok! Now you can access the annotations of your methods and classes
+                        just using the annotations methods avaliables.
+                    </p>
+                    <code>
+$this->getAnnotation()->getAnnotationClass()->getAuthor()
+                    </code>
+                    <p>
+                        This method, for example, gets the <span class="annotation">@author</span> value of the class annotation.
+                    </p>
+                    <code>
+$this->getAnnotationAttribute( "strName" )->getVar();
+                    </code>
+                    <p>
+                        This method gets the <span class="annotation">@var</span> value of the
+                        <span class="attribute">$strName</span> attribute
+                    </p>
+                    <code>
+$this->getAnnotationMethod( "getName" )->getReturn();
+                    </code>
+                    <p>
+                        This method gets the <span class="annotation">@return</span> value of the <span class="method" >getName()</span> method.
+                    </p>
+                    <p>
+                        Here is <a href="?example=Example Annotation Use">a working example</a>.
+                    </p>
+                </subtopic>
+                <subtopic name="Validating the Annotation Values">
+                    <p>
+                        You want yet to create rules into yours annotations. The method <span class="method" >validate()</span>
+                        is
+                        called after all the annotations are set. So, you can make some annotation
+                        mandatory, restrict the value of some annotation and so on.
+                    </p>
+                    <p>
+                        Here is a <a href="example=Example Annotation Class" >validate example</a> and a <a href="?example=Example Annotation Validation">throwing exception example</a>.
+                    </p>
+                </subtopic>
+            </topic>
+        </tutorial>
+    </tutorials>
+    <examples>
+        <example name="Example Annotation Attribute" class="ExampleAnnotationAttribute">
+            <description>
+                <p>
+                    Example of using annotations in attributes
+                </p>
+            </description>
+            <file name="../example/ExampleAnnotationAttribute.class.php"/>
+        </example>
+        <example name="Example Annotation Class" class="ExampleAnnotationClass">
+            <description>
+                <p>
+                    Example of annotations in classes.
+                </p>
+            </description>
+            <file name="../example/ExampleAnnotationClass.class.php"/>
+        </example>
+        <example name="Example Annotation Method" class="ExampleAnnotationMethod">
+            <description>
+                <p>
+                    Example of annotations in methods.
+                </p>
+            </description>
+            <file name="../example/ExampleAnnotationMethod.class.php"/>
+        </example>
+        <example name="Example Annotation Validation" class="ExampleClassWithError">
+            <description>
+                <p>
+                    Creating a exception with the validation of some
+                    annotation of the tag.
+                </p>
+            </description>
+            <file name="../example/ExampleClassWithError.class.php"/>
+        </example>
+        <example name="Example Annotation Use" class="ExampleClassWithoutError">
+            <description>
+                <p>
+                    Get the annotation values of the class.
+                </p>
+            </description>
+            <file name="../example/ExampleClassWithoutError.class.php"/>
+        </example>
+        <example name="Example Parent  Class" class="ExampleParentClass">
+            <description>
+                <p>
+                    Example of annotation class into a parent class.
+                </p>
+            </description>
+            <file name="../example/ExampleParentClass.class.php"/>
+        </example>
+    </examples>
+</component>

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Oauth/Token
+END
+Access.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Oauth/Token/Access.php
+END
+AuthorizedRequest.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Oauth/Token/AuthorizedRequest.php
+END
+Request.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Oauth/Token/Request.php
+END

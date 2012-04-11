@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Feed/Writer/Renderer/Feed
+END
+Atom.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Feed/Writer/Renderer/Feed/Atom.php
+END
+Rss.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Feed/Writer/Renderer/Feed/Rss.php
+END

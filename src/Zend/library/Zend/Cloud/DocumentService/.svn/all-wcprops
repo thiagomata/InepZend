@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Cloud/DocumentService
+END
+DocumentSet.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Cloud/DocumentService/DocumentSet.php
+END
+Document.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Cloud/DocumentService/Document.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Cloud/DocumentService/Exception.php
+END
+Adapter.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Cloud/DocumentService/Adapter.php
+END
+Query.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Cloud/DocumentService/Query.php
+END
+QueryAdapter.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Cloud/DocumentService/QueryAdapter.php
+END
+Factory.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/Cloud/DocumentService/Factory.php
+END

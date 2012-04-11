@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/XmlRpc/Generator
+END
+GeneratorAbstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/XmlRpc/Generator/GeneratorAbstract.php
+END
+XmlWriter.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/XmlRpc/Generator/XmlWriter.php
+END
+DomDocument.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/inepzendframework/!svn/ver/2/trunk/src/Zend/library/Zend/XmlRpc/Generator/DomDocument.php
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/inepzendframework/!svn/ver/20/trunk/src/InepZend/library/coruja/template
+END
+XmlTemplateAnnotationAttribute.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/inepzendframework/!svn/ver/2/trunk/src/InepZend/library/coruja/template/XmlTemplateAnnotationAttribute.php
+END
+XmlTemplateAnnotationClass.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/inepzendframework/!svn/ver/2/trunk/src/InepZend/library/coruja/template/XmlTemplateAnnotationClass.php
+END
+CorujaTemplateException.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/inepzendframework/!svn/ver/2/trunk/src/InepZend/library/coruja/template/CorujaTemplateException.php
+END
+CorujaXmlTemplate.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/inepzendframework/!svn/ver/2/trunk/src/InepZend/library/coruja/template/CorujaXmlTemplate.php
+END
+CorujaXmlEntity.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/inepzendframework/!svn/ver/20/trunk/src/InepZend/library/coruja/template/CorujaXmlEntity.php
+END
+XmlNodeOutsideValidationRule.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/inepzendframework/!svn/ver/6/trunk/src/InepZend/library/coruja/template/XmlNodeOutsideValidationRule.php
+END
+XmlTemplateAnnotationMethod.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/inepzendframework/!svn/ver/2/trunk/src/InepZend/library/coruja/template/XmlTemplateAnnotationMethod.php
+END
